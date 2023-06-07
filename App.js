@@ -33,6 +33,10 @@ export default function App() {
     setIsModalVisible(false);
   };
 
+  const onSaveImageAsync = async () => {
+    // we will implement this later
+  };
+
   const pickImageAsync = async () => {
     let result = await ImagePicker.launchImageLibraryAsync({
       allowsEditing: true,
