@@ -1,5 +1,4 @@
 import { View, Image } from "react-native";
-import { TapGestureHandler } from "react-native-gesture-handler";
 import Animated, {
   useAnimatedStyle,
   useSharedValue,
